@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Audiowide");
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,700,900");
 *{
-    font-family: 'Poppins', cursive, "Gruppo","Audiowide", Courier, monospace;
+    font-family: 'Poppins', Courier, cursive, "Gruppo","Audiowide", monospace;
     margin: 10px;
 }
 header{

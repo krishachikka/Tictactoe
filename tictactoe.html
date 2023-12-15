@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tictactoe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>Tic Tac Toe</header>
+<body>
+
+    <table>
+        <tr>
+            <td class="box" id="0"></td>
+            <td class="box" id="1"></td>
+            <td class="box" id="2"></td>
+        </tr>
+        <tr>
+            <td class="box" id="3"></td>
+            <td class="box" id="4"></td>
+            <td class="box" id="5"></td>
+        </tr>
+        <tr>
+            <td class="box" id="6"></td>
+            <td class="box" id="7"></td>
+            <td class="box" id="8"></td>
+        </tr>
+    </table>
+    <div class="gameresult">
+        <div class="text"></div>
+    </div>
+    <div class="btn">
+    <button onclick="start()">Replay</button>
+    <button id="modeButton">Switch to AI Mode</button>
+    </div>
+    <div id="currentPlayer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
